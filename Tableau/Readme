@@ -1,1 +1,35 @@
+📊 Tableau Dashboards
 
+As the final step of this project, I designed a 3-page interactive Tableau dashboard to showcase both business insights and machine learning results.
+
+🔹 1. Executive Overview (Business View)
+   - High-level KPIs: average servings, total recipes, % high-traffic recipes, % high-calorie recipes
+   - Recipe count by category (bar chart)
+   - High vs unknown traffic share (donut chart)
+   - Calories vs protein contribution (bubble chart)
+   - Average calories & protein by category (heatmap table)
+👉 Purpose: Provide executives with a quick snapshot of recipe performance and traffic trends.
+
+🔹 2. Nutritional Insights (Analyst View)
+  - KPIs: avg calories, protein, sugar ratio, servings per recipe
+  - Calories per serving by category (box plot)
+  - Macronutrient ratios by category (stacked bar)
+  - Average calories, protein, sugar (heatmap table)
+  - Calories vs sugar ratio (scatter)
+  - Calorie distribution by traffic label (line distribution)
+👉 Purpose: Enable analysts to explore nutrition patterns and identify calorie-dense or sugar-heavy recipes.
+
+🔹 3. Model & Prediction View (Data Science Showcase)
+  - KPIs: Logistic Regression & Decision Tree Accuracy + AUC
+  - Confusion Matrices for both models (with TN, FP, FN, TP labels)
+  - ROC curve comparison
+  - Grouped bar chart: Precision, Recall, F1 by model
+👉 Purpose: Evaluate and compare machine learning models, showing how well they predict recipe popularity and calorie density.
+
+📂 Deliverables
+  - Screenshots of each page are available in the tableau/ folder.
+  - Final dashboard published on Tableau Public: [Insert Your Tableau Public Link Here]
+
+Packaged workbook (.twbx) included for reproducibility.
+
+⚡ This Tableau integration demonstrates how raw data → Python modeling → exported metrics → interactive dashboards can create a full analytics pipeline for both business and technical stakeholders.
