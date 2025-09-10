@@ -1,0 +1,5 @@
+model,metric,value
+Logistic Regression,accuracy,0.7210526315789474
+Logistic Regression,auc,0.7443971957246294
+Decision Tree,accuracy,0.6421052631578947
+Decision Tree,auc,0.6191817032524997

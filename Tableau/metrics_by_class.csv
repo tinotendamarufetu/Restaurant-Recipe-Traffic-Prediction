@@ -1,0 +1,7 @@
+model,klass,metric,value
+Logistic Regression,1,precision,0.8333333333333334
+Logistic Regression,1,recall,0.38961038961038963
+Logistic Regression,1,f1,0.5309734513274337
+Decision Tree,1,precision,0.5616438356164384
+Decision Tree,1,recall,0.5324675324675324
+Decision Tree,1,f1,0.5466666666666667
